@@ -1,16 +1,85 @@
-# React + Vite
+# 📸 React Photo Gallery
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive photo gallery built using **React, Vite, and Tailwind CSS**.
+The application fetches images from the Picsum API and allows users to search and mark photos as favourites.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* Fetches **30 photos** from Picsum API
+* Responsive photo grid layout
+* Search photos by **author name**
+* Mark images as **favourites ❤️**
+* Persistent favourites using **LocalStorage**
+* Optimized filtering using **useMemo**
+* Efficient event handling using **useCallback**
+* Custom React Hook for fetching data
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* React
+* Vite
+* Tailwind CSS
+* JavaScript (ES6+)
+
+---
+
+## ⚙️ React Concepts Demonstrated
+
+* **Custom Hooks**
+* **useReducer for state management**
+* **useMemo for optimized filtering**
+* **useCallback for optimized handlers**
+* **LocalStorage persistence**
+* **Responsive UI with Tailwind CSS**
+
+---
+
+## 📡 API Used
+
+Picsum API
+
+https://picsum.photos/v2/list?limit=30
+
+---
+
+## 📦 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/your-username/photo-gallery.git
+```
+
+Navigate to the project folder
+
+```bash
+cd photo-gallery
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+---
+
+## 📷 Project Preview
+
+Responsive photo gallery displaying images fetched from the API with search and favourite functionality.
+
+---
+
+## 👩‍💻 Author
+
+Shatabdi Singh
